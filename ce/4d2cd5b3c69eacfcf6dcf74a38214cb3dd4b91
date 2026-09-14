@@ -1,0 +1,16 @@
+Sources/VonageClientLibrary/CellularClient/CellularConnectionManager.swift
+  h_45ddd02088edb9 361-372
+Tests/VonageClientLibraryTests/CellularConnectionManagerRedirectTests.swift
+  h_45ddd02088edb9 1-66
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "ce4d2cd5b3c69eacfcf6dcf74a38214cb3dd4b91",
+  "prompts": {},
+  "humans": {
+    "h_45ddd02088edb9": {
+      "author": "jpena <julian.pena@vonage.com>"
+    }
+  }
+}
