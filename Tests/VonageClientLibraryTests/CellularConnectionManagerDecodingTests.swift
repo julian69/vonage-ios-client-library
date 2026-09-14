@@ -15,7 +15,7 @@ final class CellularConnectionManagerDecodingTests: XCTestCase {
         super.tearDown()
     }
 
-    /// `google.com` serves ISO-8859-1. Byte 0xF3 is not valid UTF-8, and the previous `.ascii`
+    /// `google.com`, which was used during testing, serves ISO-8859-1. Byte 0xF3 is not valid UTF-8, and the previous `.ascii`
     /// fallback also rejected it, so a 200 was reported as "Response has no data or corrupt".
     func testLatin1ResponseIsDecodedRatherThanRejected() {
         var bytes = Data("HTTP/1.1 200 OK\r\nContent-Type: text/html; charset=ISO-8859-1\r\n\r\n".utf8)
